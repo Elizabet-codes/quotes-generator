@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    height:100vh;
+    background-image: linear-gradient(rgba(49, 100, 209, 0.6), rgba(59, 77, 238, 0.6)), url('quotes.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}
+
+.container{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   height:100vh;
+  
+    
+}
+
+.quotes-wrapper{
+    max-width:300px;
+    font-size:30px;
+    color:rgb(46, 38, 10);
+    font-weight:bold;
+}
+
+.quotes-wrapper h1{
+    color:#fff;
+}
+.btn-next{
+    background-color:
+    transparent;
+    border:1ps solid #fff;
+    padding:20px 50px;
+    border-radius:8px;
+    cursor: pointer;
+    color:#fff;
+    font-size: 20px;
+ 
+    width:100%;
+}
+.btn-next{
+    margin-left:30px;
+}
+@media(max-width:400px){
+    .quotes-wrapper{
+        font-size:20px;
+        margin-left: 20px;
+    }
+    
+}
